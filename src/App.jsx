@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import VintageVinylPlayer from "./VintageVinylPlayer.jsx";
 
 import tienda from "./assets/01-mabe-comprando-tienda.jpg";
 import picnic from "./assets/02-mabe-ely-picnic-parque.jpg";
@@ -45,6 +46,7 @@ function App() {
 
   return (
     <main className="storybook">
+      <VintageVinylPlayer />
       <div className="ambient ambient-one" aria-hidden="true">✧</div>
       <div className="ambient ambient-two" aria-hidden="true">❧</div>
       <header className="masthead">
